@@ -1,0 +1,36 @@
+.search{
+    background-image: url(https://images.unsplash.com/photo-1541280910158-c4e14f9c94a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    text-align: center;
+    color: #fff;
+    height: 35rem;
+}
+.search-logo{
+    font-size: 60px;
+    padding-top: 10rem;
+}
+.search-form{
+    margin-top: 2.5rem;
+    justify-content: center;
+}
+.searchbar-input{
+    width: 60rem;
+    height: 2.7rem;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.searchbar-btn{
+    height: 2.7rem;
+    width: 80px;
+    font-size: 20px;
+    background-color: #256D85;
+    color: #fff;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.searchbar-input:focus{
+   outline: none;
+}
