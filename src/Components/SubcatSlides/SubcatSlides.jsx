@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { SubSlide } from '../SubSlide/SubSlide';
 import './subcat.css'
 
 export const SubcatSlides = () => {
@@ -19,45 +20,22 @@ export const SubcatSlides = () => {
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
-            items: 1
+            items: 2
         }
     };
   return (
     <div className='container related'>
         <Carousel responsive={subCat}>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
-            <div className="btn-slide">
-                <button className='btn btn-outline-dark btn-lg'>Nature</button>
-            </div>
+           <SubSlide subName='Nature'/>
+           <SubSlide subName='Deserts'/>
+           <SubSlide subName='Dark'/>
+           <SubSlide subName='Anime'/>
+           <SubSlide subName='Cartoon'/>
+           <SubSlide subName='Naruto'/>
+           <SubSlide subName='Itachi'/>
+           <SubSlide subName='Goku'/>
+           <SubSlide subName='3D'/>
+           <SubSlide subName='Vector'/>
             
         </Carousel>
     </div>
