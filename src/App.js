@@ -16,7 +16,7 @@ function App() {
 
       <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<Home />}/>
+        <Route path="/" element={<Home />}/>
         <Route path="/wallpapers" element={<Wallpapers />}/>
         <Route path="/backgrounds" element={<Backgrounds />}/>
         <Route path="/pngs" element={<Pngs />} />
