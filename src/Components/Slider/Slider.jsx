@@ -24,7 +24,7 @@ export const Slider = () => {
         }
     };
     return (
-        <div className='container mt-3'>
+        <div className='mt-3'>
             <h2 className='slider-head'>Trending</h2>
 
             <Carousel responsive={responsive}>
