@@ -36,7 +36,7 @@ export const SubcatSlides = () => {
            <SubSlide subName='Goku'/>
            <SubSlide subName='3D'/>
            <SubSlide subName='Vector'/>
-            
+    
         </Carousel>
     </div>
   )

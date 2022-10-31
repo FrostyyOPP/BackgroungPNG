@@ -6,12 +6,14 @@ import { Backgrounds } from "./Pages/Backgrounds/Backgrounds";
 import { Pngs } from "./Pages/PNGs/Pngs";
 
 
+
 function App() {
 
   return (
    
-    <div className="App">
+    <>
       <Header />   
+      <div className="slugs">
 
 
       <BrowserRouter>
@@ -22,9 +24,9 @@ function App() {
         <Route path="/pngs" element={<Pngs />} />
       </Routes>
       </BrowserRouter>
-
-      
-    </div>
+      </div>
+    
+      </>
   );
 }
 
